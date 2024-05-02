@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|assets|assets/css|assets/js|assets/etc|robots/.txt)
+RewriteRule ^(.*)$ /MANUAL/index.php/$1 [L]
